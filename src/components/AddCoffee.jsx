@@ -15,6 +15,7 @@ const AddCoffee = () => {
         const photo = formAddCoffee.photo.value;
         const newCoffee = { name, quantity, supplier, taste, category, details, photo };
         console.log(newCoffee);
+        
 
 
         fetch('http://localhost:5000/coffee', {
